@@ -40,5 +40,5 @@ const otroAlmacen = {
   }
 }
 
-contains(almacen, 'camiseta') // true
-contains(otroAlmacen, 'gameboy') // false
+console.log(contains(almacen, 'camiseta')) // true
+console.log(contains(otroAlmacen, 'gameboy')) // false
