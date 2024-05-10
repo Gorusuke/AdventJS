@@ -1,4 +1,4 @@
-export default function createXmasTree(height) {
+function createXmasTree(height) {
   const [TREE_BODY_SYMBOL, TREE_TRUNK_SYMBOL, BACKGROUND_SYMBOL] = ['*', '#', '_'];
 
   const treeBody = Array.from({ length: height }, (_, index) =>

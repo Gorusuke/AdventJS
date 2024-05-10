@@ -1,4 +1,4 @@
-export default function isValid(letter) {
+function isValid(letter) {
   const hasEmptyParentheses = letter.replace(/\s+/g, '').includes('()');
 
   const parenthesesSequence = [...letter.replace(/[^()]/g, '')];
