@@ -18,8 +18,8 @@ function drawRace(indices, length) {
 
 
 console.log(drawRace([0, 5, -3], 10)) // 1
-// console.log(drawRace([2, -1, 0, 5], 8)) //2
-// console.log(drawRace([3, 7, -2], 12)) // 3
+console.log(drawRace([2, -1, 0, 5], 8)) //2
+console.log(drawRace([3, 7, -2], 12)) // 3
 
 /* 1
   ~~~~~~~~~~ /1
