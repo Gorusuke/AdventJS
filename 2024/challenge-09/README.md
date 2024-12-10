@@ -1,4 +1,4 @@
-# Reto #8: 🦌 La carrera de renos
+# Reto #9: 🚂 El tren mágico
 
 Los elfos están jugando con un **tren 🚂 mágico que transporta regalos.** Este tren se mueve en un tablero representado por un **array de strings.**
 
