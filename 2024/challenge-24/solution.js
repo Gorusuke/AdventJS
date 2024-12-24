@@ -3,7 +3,7 @@ function isTreesSynchronized(tree1, tree2) {
     return [false, tree1 ? tree1.value : null]
   }
 
-  let stack = [[tree1.left, tree2.right]]
+  const stack = [[tree1.left, tree2.right]]
   while (stack.length > 0) {
     const [node1, node2] = stack.pop()
     if (!node1 && !node2) continue
